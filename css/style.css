@@ -685,7 +685,7 @@ footer section ends
   }
 }
 /***********************************************************************/
-/**********************************Contact 1*******************************/
+/**********************************Contact 1****************************/
 /***********************************************************************/
 
 .contact1 .detail-box {
@@ -812,6 +812,107 @@ select.form-control:not([size]):not([multiple]) {
   box-shadow: 0px;
   opacity: 1;
 }
+.contact-form {
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .contact-form {
+    padding-left: 10%;
+    padding-bottom: 0px;
+  }
+}
+
+/***********************************************************************/
+/**********************************Contact US***************************/
+/***********************************************************************/
+
+/***********************************************************************/
+/**********************************More INFORMATION*********************/
+/***********************************************************************/
+
+/*************************** WORKING HOURS ***********************************/
+.info__section {
+  margin-bottom: 50px;
+}
+
+.working-hours {
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .info__title {
+    padding-left: 20%;
+    padding-bottom: 0px;
+  }
+  .hours {
+    padding-left: 20%;
+    padding-right: 50px;
+    padding-top: 30px;
+  }
+}
+
+.info__title {
+  padding-bottom: 10px;
+}
+
+.hours__day {
+  margin: 0;
+  margin-top: 0px;
+  display: table;
+  width: 100%;
+  padding: 0.8em;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  font-size: 1.1em;
+}
+
+.hours__name,
+.hours__slots {
+  display: table-cell;
+  vertical-align: middle;
+  height: 1.2em;
+}
+
+.hours__slots {
+  width: 60%;
+  text-align: right;
+}
+
+.hours__day_last {
+  padding: 10px;
+}
+
+.active_day {
+  background-color: #fa7b7b26;
+  color: var(--red);
+}
+/*************************** WORKING HOURS ***********************************/
+
+/*******************************************************************/
+
+.more_info_section {
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+.more_info_list {
+  padding-top: 25px;
+}
+
+.more_info__title {
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  .more_info_section {
+    padding-left: 20px;
+  }
+}
+
+/***********************************************************************/
+/**********************************More INFORMATION*********************/
+/***********************************************************************/
 
 /***********************************************************************/
 /**********************************FOOTER*******************************/
@@ -857,6 +958,7 @@ Spacer
 *******************/
 .spacer {
   padding: 90px 0;
+  padding-bottom: 30px;
 }
 
 .mini-spacer {
@@ -997,39 +1099,7 @@ bacgrounds
   background-color: #188ef4 !important;
 }
 
-.info__title {
-  padding-left: 20%;
-}
-
-.hours {
-  padding: 20%;
-  padding-top: 40px;
-}
-.hours__day {
-  padding: 10px;
-  width: 100%;
-  border-bottom: rgb(168, 167, 167) solid 1px;
-}
-.hours__day_last {
-  padding: 10px;
-  width: 100%;
-}
-
-.active_day {
-  background-color: #ff383826;
-}
-
-/*******************************************************************/
-
-.more_info_section,
-.more_info__title {
-  padding-left: 0px;
-}
-
-.more_info_list {
-  padding-top: 45px;
-}
-.more_info_section {
+.font-13 {
   font-size: 13px;
 }
 
